@@ -19,9 +19,6 @@ b1 = "Roshan"
 print(b1[-4:])
 
 
-x1 = int(input("enter your first value"))
-y1 = int(input("Enter your second value"))
-print(x1 + y1)
 
 
 # String Methods 

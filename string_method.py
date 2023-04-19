@@ -1,6 +1,5 @@
 a = "Gavan kumar"
 print(len(a))
-
 # Upper case
 upperCase = "Hello world"
 print(upperCase.upper())
@@ -92,3 +91,14 @@ print(a.swapcase())
 a = "Python is a interpreted language"
 print(a.title())
 a = "hello"
+
+
+
+
+
+
+
+
+
+
+

@@ -4,10 +4,10 @@ print(a)
 b = 'In the end, it\'s not the "years" in your life that count.'
 
 print(b)
-c = ("""We cannot solve problems with the kind of thinking we employed when we came up with them.” — ...
+c = """We cannot solve problems with the kind of thinking we employed when we came up with them.” — ...
 “Learn as if you will live forever, live like you will die tomorrow.” — ...
 “Stay away from those people who try to disparage your ambitions. ...
-“When you give joy to other people, you get more joy in return """)
+“When you give joy to other people, you get more joy in return """
 print(b)
 
 
@@ -36,6 +36,15 @@ print(y4)
 
 
 # Strings Slicing and Operations on Strings  
+
+a = "This Is My First Blo!!"
+
+print(a.swapcase())
+
+
+
+
+
 
 
 
