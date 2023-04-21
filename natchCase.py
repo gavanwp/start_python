@@ -36,15 +36,5 @@ match y :
 import time
 a = time.strftime("%H")
 print(a)
-a = int(time.strftime("%H"))
 
-match a : 
-    case 12:
-        print("The right now is 12")
-
-    case 20:
-        print("The is right now is 20 pm")
-
-    case _ :
-        print("Good night")
 
