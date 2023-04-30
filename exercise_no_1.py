@@ -23,6 +23,3 @@ b2 = 8
 print(a2 + b2 , type(b2))
 
 
-
-
-

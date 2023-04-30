@@ -9,22 +9,24 @@
 
 #This is the continue statement in python
 
-for x in range(15):
+# for x in range(15):
    
-    if(x == 10):
-        print("skin the iteration")
-        continue
-    print("5*", x, "=" , x*5 )
+#     if(x == 10):
+#         print("skin the iteration")
+#         continue
+#     print("5*", x, "=" , x*5 )
 
 
 
-i = 0 
+# i = 0 
 
-while True:
-    print(i)
-    i = i + 1
-    if(i%100 == 0):
-        break
+# while True:
+#     print(i)
+#     i = i + 1
+#     if(i%100 == 0):
+#         break
+
+
 
 
 

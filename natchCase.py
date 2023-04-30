@@ -18,23 +18,24 @@
 
 
 
-y = int(input("enter the vlaue  "))
+# y = int(input("enter the vlaue  "))
 
-match y : 
-    case 12: 
-        print("The value of y is 12")
+# match y : 
+#     case 12: 
+#         print("The value of y is 12")
 
-    case 20:
-        print("The value of y is 20")
+#     case 20:
+#         print("The value of y is 20")
 
-    case _ if y < 0 :
-        print("The value is nagative")
-    case _ :
-        print(y)
+#     case _ if y < 0 :
+#         print("The value is nagative")
+#     case _ :
+#         print(y)
 
-# Good Morning  assignment using Match Case in python 
-import time
-a = time.strftime("%H")
-print(a)
+
+
+
+    
+
 
 
