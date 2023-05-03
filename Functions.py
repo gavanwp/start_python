@@ -1,8 +1,8 @@
 # gmeant mean
-# a = 8
-# b = 7
-# gemeant = (a*b)/(a+b)*(a-b)+(a/b)
-# print(gemeant)
+a = 8
+b = 7
+gemeant = (a*b)/(a+b)*(a-b)+(a/b)
+print(gemeant)
 
 # c = 8
 # d = 12
@@ -106,3 +106,12 @@ def dic(**name):
 
 
 dic(fname="Gavan", lname="kumar", Fname="Anbji")
+
+
+
+
+
+
+
+
+

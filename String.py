@@ -24,11 +24,10 @@
 # for che in c:
 #     print(che)
 
-# y = input("enter your value")
-# x = input("enter your value ")
-# print(int(y) + int(x))
+# y = int(input("enter your value"))
+# x = int(input("enter your value"))
+# print(y + x)
 
- 
 # y1 = y2 = y3 = y4 = "Gavan"
 # print(y2)
 # print(y1)
@@ -40,6 +39,30 @@
 # a = "This Is My First Blo!!"
 
 # print(a.swapcase())
+
+
+# # String Concatenation
+# a = "Gavan"
+# b = "kumar"
+# c = a + " " + b
+# print(c)
+
+
+
+
+
+# Format - Strings
+age = 20
+text = "I am Gavan kumar and my age is {}"
+print(text.format(age))
+
+#
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
 
 
 

@@ -14,7 +14,7 @@ print(list[6])
 # Negative Index
 print(list[-4])
 print(list[len(list)-4])
-print(list[7-4])
+print("hello",list[7-4])
 
 #
 if 33 in list:
@@ -62,6 +62,7 @@ m = l.copy()
 print(m)
 m.insert(1, 200)
 print(m)
+
 # Extend Method in python 
 y = [ 30,40,50]
 print(y)
@@ -69,8 +70,60 @@ m.extend(y)
 print(m)
 
 
-x = m + y 
-print("margn",x)
+# Change Item Value
+# To change the value of a specific item, refer to the index number:
+a = [ 20 , 30 ,45,74,34]
+a[3] = 50
+print(a)
+
+# Change a Range of Item Values
+#To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values:
+
+a = ["Gavan", "Roshan", "Naresh", "pardeep"]
+a[1:] = ("Pardeep", "Roshan", "Raj")
+print(a)
+
+
+
+
+
+# Remove Specified Item 
+y = [30, 20,53,23,44]
+y.remove(53)
+print(y)
+# The pop() method removes the specified index.
+x = ["apple", "banana", "cherry"]
+x.pop(1)
+print(x)
+# If you do not specify the index, the pop() method removes the last item.
+x.pop()
+print(x)
+
+# Clear the List
+i = ["apple", "banana", "cherry"]
+i.clear() 
+print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
