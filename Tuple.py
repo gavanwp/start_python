@@ -31,8 +31,9 @@ print(items)
 
 
 # It is also possible to use the tuple() constructor to make a tuple.
-a = ("hello", (True))
-print(a)
+a = (88)
+print("Hello",a)
+
 
 
 # Python Collections (Arrays)
@@ -151,3 +152,13 @@ c = a + b
 print(c)
 multip = a*3
 print(multip)
+
+
+# count Method in tuple 
+tup = (2,3,4,2,43,2)
+print(tup.count(2))
+
+
+# Index  in tuple
+a = (0,1,2,3,4,3,4,5,5,3,5,6,3,6)
+print(a.index(3,6 , 11))
