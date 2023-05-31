@@ -182,3 +182,10 @@ x = {"f", "e", "d", "c", "b", "a"}
 y = {"a", "b", "c"}
 z = x.issuperset(y)
 print(z)
+
+
+# how to create empty set 
+
+# empty = {}
+empty = set()
+print(type(empty))

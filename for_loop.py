@@ -14,32 +14,32 @@ for a in color :
 a = "Roshan kumar"
 b = a.replace("Roshan", "Gavan")
 
-# for y in range(100):
-#     if (y < 20):
-#         print("Roshan")
-#     elif( y < 40):
-#         print(b.replace("Roshan", "Naresh"))
-#     elif(y < 60):
-#         print(b.replace("Naresh","Paredep"))
-#     elif(y < 80):
-#         print(b.replace("Naresh", "Gavan"))
+for y in range(100):
+    if (y < 20):
+        print("Roshan")
+    elif( y < 40):
+        print(b.replace("Roshan", "Naresh"))
+    elif(y < 60):
+        print(b.replace("Naresh","Paredep"))
+    elif(y < 80):
+        print(b.replace("Naresh", "Gavan"))
     
-#     else :
-#         print("error")
+    else :
+        print("error")
 
 
 
-# # 
-# for x in range(1, 20, 3):
-#     print(x)
+# 
+for x in range(1, 20, 3):
+    print(x)
 
 
-# b = ["roshan", "Gavan","pardeep"]
-# for b1 in b :
-#     print(b1)
+b = ["roshan", "Gavan","pardeep"]
+for b1 in b :
+    print(b1)
 
 
- # while loop in python
+#  while loop in python
 i = 0 
 while(i < 20):
     print(i)

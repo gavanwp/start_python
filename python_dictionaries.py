@@ -2,6 +2,7 @@
 thisdic = {"name": "Gavan",
            "Father": "Anbji",
            "class": "8th"}
+
 print(type(thisdic), thisdic)
 print(len(thisdic))
 # A dictionary is a collection which is ordered*, changeable and do not allow duplicates
@@ -45,7 +46,7 @@ print(items["name"])
 print(items["age"])
 print(items["birth date"])
 
-# Methon NO 2 using Get()
+#  NO 2 using Get()
 print(items.get("name"))
 print(items.get("age"))
 print(items.get("birth date"))
@@ -135,4 +136,42 @@ thisdict =	{
   "year": 1964
 }
 thisdict["cost"] = "200$"
+print(thisdict)
+
+
+dic = {233: "Roshan",
+       234 : "Naresh", 
+       235 : "Gavan",
+       236:"Zakir", 
+       237:"Neha"}
+
+print(dic[233])
+print(dic[234])
+print(dic[237])
+print(dic.get(233))
+
+print(dic.items())
+for key , value in dic.items():
+    print(f"The value of corresponding to the key {key} is {value}")
+
+
+# POP method in puython 
+ 
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "cost": 200,
+  "year": 1964
+
+}
+thisdict.pop("brand")
+print(thisdict)
+
+# popitem will remove last item from this dictionary
+thisdict.popitem()
+print(thisdict)
+
+# DELETE method in puython
+
+del thisdict["cost"]
 print(thisdict)

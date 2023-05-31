@@ -8,14 +8,14 @@ print("hello i am \"gavan kumar\" \n this is my friend roshan")
 print("hello",44,23, sep=">" , end="4345\n")
 print("new line ")
 
-a = " hello dear friend how are you i hope you are doing well "
+a = "hello dear friend how are you i hope you are doing well "
 print(a[3:4])  # Prints characters starting from 3rd to 5th
 print(a[2:]) # Prints string starting from 3rd character
 print(a*2) ## Prints string two times
 print(a+"Gavan kumar") # Prints concatenated string
  #Python List Data Type
 
-# type of 
+# type casting  of 
 a1 = str(23)
 print(a1, type(a1))
 a2 = int(23) # interger

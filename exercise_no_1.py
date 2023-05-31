@@ -9,6 +9,7 @@ print("The value of ", a , "/", b , "is" , a / b)
 
 
 #typeCasting 
+
 a1 = "12"
 b1 = "12"
 print(int(a1)+ int(b1))
