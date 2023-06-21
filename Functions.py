@@ -80,6 +80,7 @@ names(Fname="Gavan", Lname="kumar", fname="Anbji")
 
 
 # Keyword arguments
+
 def add2(a, b):
     result2 = a * b
     print("Keyword arguments", result2)

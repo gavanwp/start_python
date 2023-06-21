@@ -19,14 +19,14 @@ print(e[2])
 
 # For Loop
 
-# print("For loop\n")
+print("For loop\n")
 
-# for che in c:
-#     print(che)
+for che in c:
+    print(che)
 
-# y = int(input("enter your value"))
-# x = int(input("enter your value"))
-# print(y + x)
+y = int(input("enter your value"))
+x = int(input("enter your value"))
+print(y + x)
 
 y1 = y2 = y3 = y4 = "Gavan"
 print(y2)

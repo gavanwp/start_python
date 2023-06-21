@@ -85,7 +85,7 @@ print(tuple1)
 # Convert into a list: Just like the workaround for changing a tuple, you can convert it into a list, add your item(s), and convert it back into a tuple.
 
 items = ("Gavan", "Roshan", "pardep")
-print("Add Items", items)
+print("Add Items", items) 
 
 items1 = list(items)
 print("Now it is changed into list ", items1)

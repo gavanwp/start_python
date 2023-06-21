@@ -22,7 +22,7 @@ print(c)
 
 
 #Enumerate Function in Python
-marks = [22,31,54,65,25,36,99]
+# marks = [22,31,54,65,25,36,99]
 # for mark in marks:
 #     print(mark)
 #     if mark == 99:
@@ -36,11 +36,11 @@ marks = [22,31,54,65,25,36,99]
 
 
 
-for index , mark in enumerate(marks):
-    print(marks)
-    print(index)
-    if index == 6:
-        print(f" Congratulation Gavan  A+ You got {mark} ")
+# for index , mark in enumerate(marks):
+#     print(marks)
+#     print(index)
+#     if index == 6:
+#         print(f" Congratulation Gavan  A+ You got {mark} ")
     
 
 

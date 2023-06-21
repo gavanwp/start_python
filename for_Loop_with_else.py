@@ -24,6 +24,7 @@ for i in range(10):
     print("iterration number {} in for loop ".format(i + 1))
     if i ==2:
         break
-else:
-    print("kia yai else statement executed ho gyi ?")
+else: 
+    print("kia yai else statement executed ho gyi ?") # no this line of code is not run
+    
 

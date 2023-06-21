@@ -109,6 +109,7 @@ for i in thisset:
 # You can use the union() method that returns a new set containing
 # all items from both sets, or the update() method that inserts all the items from one set into another:
 # uisng Update method
+
 a = {"kabul", "Tirana", "Alglers", "Andorra la vella", "luanda"}
 b = {"Saint john's", "Buenos Aires", "Yerevan"}
 a.update(b)
@@ -125,9 +126,10 @@ print(capital)
 # Meaning: The returned set contains items that exist only in the first set, and not in both sets.
 
 thisset1 = {"Apple", "green", "cherry", "yello"}
-thisset2 = {"Cherry", "gray", "Banana", "green"}
+thisset2 = {"cherry", "gray", "Banana", "green"}
 result = thisset1.difference(thisset2)
 print(result)
+
 
 # Set difference_update() Method
 # The difference_update() method removes the items that exist in both sets.
@@ -140,7 +142,7 @@ b = {"a", "d", "c", "e"}
 a.difference_update(b)
 print(a)
 
-# Set intersection() Method
+# Set inteodrsection() Meth
 
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
@@ -189,3 +191,11 @@ print(z)
 # empty = {}
 empty = set()
 print(type(empty))
+
+
+
+
+
+
+
+

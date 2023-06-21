@@ -18,7 +18,7 @@ print(a+"Gavan kumar") # Prints concatenated string
 # type casting  of 
 a1 = str(23)
 print(a1, type(a1))
-a2 = int(23) # interger
+a2 = int("23") # interger
 print(a2 , type(a2))
 a3 = float(23)
 print(a3 , type(a3))
